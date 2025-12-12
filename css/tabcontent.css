@@ -1,0 +1,93 @@
+
+ul.tabs
+{
+    padding: 3px 0;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: center; /*set to left, center, or right to align the tabs as desired*/
+}
+
+ul.tabs li
+{
+    display: inline;
+    margin: 0;
+    margin-right:2px; /*distance between tabs*/
+}
+
+ul.tabs li a
+{
+    font: normal 10px Verdana;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    padding: 3px 3px;
+    border: 1px solid #CCC;
+    border-bottom-color:#AAA;
+    color: #000;
+    background: #F0F0F0 url(/web/20181203094631im_/http://wwwfs.org/jsimg/tabbg.gif) repeat-x 0 0;
+    border-radius: 2px 2px 0 0;
+    outline:none;
+}
+
+ul.tabs li a:visited
+{
+    color: #000;
+}
+
+ul.tabs li a:hover
+{
+    border: 1px solid #AAA;
+    background:#F0F0F0 url(/web/20181203094631im_/http://wwwfs.org/jsimg/tabbg.gif) 0 -36px repeat-x;
+}
+
+ul.tabs li.selected a
+{
+    /*selected tab style */
+    padding: 2px 2px 2px;
+    position: relative;
+    top: 0px;
+    font-weight:bold;
+    background: white url(/web/20181203094631im_/http://wwwfs.org/jsimg/tabbg.gif) 0 -72px repeat-x;
+    border: 1px solid #AAA;
+    border-bottom-color: white;
+}
+
+
+ul.tabs li.selected a:hover
+{
+    /*selected tab style */
+    text-decoration: none;
+}
+
+div.tabcontent
+{
+    display: block;
+}
+
+div.tabcontents
+{
+    border: 1px solid #AAA; padding: 10px;
+    background-color:#FFF;
+    border-radius: 2px;
+}
+/*
+     FILE ARCHIVED ON 09:46:31 Dec 03, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:27:12 Dec 12, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.547
+  exclusion.robots: 0.035
+  exclusion.robots.policy: 0.025
+  esindex: 0.009
+  cdx.remote: 33.764
+  LoadShardBlock: 534.973 (3)
+  PetaboxLoader3.datanode: 1214.388 (5)
+  PetaboxLoader3.resolve: 5627.059 (3)
+  load_resource: 6350.728 (2)
+*/
